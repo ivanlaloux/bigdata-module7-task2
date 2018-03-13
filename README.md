@@ -52,7 +52,7 @@ function appendSvg(domElement) {
 
 **2. Tooltip area**
 
-A new _<div>_ is created to contain tooltip information. Initial _opacity_ is set to 0 as the tooltip should not be visible until a dot in the line chart is clicked:
+A new _\<div>_ is created to contain tooltip information. Initial _opacity_ is set to 0 as the tooltip should not be visible until a dot in the line chart is clicked:
 
 ```javascript
 function appendTooltip(domElement){
